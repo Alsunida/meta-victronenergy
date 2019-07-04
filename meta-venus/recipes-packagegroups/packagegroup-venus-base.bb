@@ -38,6 +38,7 @@ RDEPENDS_${PN} += "\
 	can-utils \
 	connman \
 	connman-tools \
+	coreutils \
 	crda \
 	cronie \
 	curl \
@@ -70,6 +71,7 @@ RDEPENDS_${PN} += "\
 	ppp \
 	python-pymodbus \
 	python-pyserial \
+	procps \
 	rsync \
 	rtl8192eu \
 	screen \
@@ -77,6 +79,7 @@ RDEPENDS_${PN} += "\
 	start-stop-daemon \
 	strace \
 	sysctl-conf \
+	tar \
 	tzdata \
 	tzdata-africa \
 	tzdata-americas \
@@ -88,6 +91,7 @@ RDEPENDS_${PN} += "\
 	tzdata-europe \
 	tzdata-pacific \
 	usbutils \
+	util-linux \
 	udev-extraconf \
 	venus-feed-configs \
 	venus-html5-app \
