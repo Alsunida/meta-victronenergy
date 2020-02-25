@@ -15,9 +15,10 @@ RDEPENDS_${PN} = "\
 "
 
 SRC_URI = " \
-    gitsm://github.com/victronenergy/${BPN}.git;protocol=ssh;user=git;tag=v${PV} \
+    gitsm://github.com/victronenergy/${BPN}.git;protocol=ssh;user=git;branch=master \
     file://start-tty.sh \
 "
+SRCREV = "${AUTOREV}"
 S = "${WORKDIR}/git"
 
 DAEMONTOOLS_SERVICE_DIR = "${bindir}/service"
